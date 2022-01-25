@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+body {
+  font-family: "Dosis", sans-serif;
+  background: #f4f2f1;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgba(120, 125, 129, 0.863);
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  max-width: 500px;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
